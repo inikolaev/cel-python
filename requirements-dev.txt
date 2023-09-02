@@ -1,6 +1,6 @@
 behave==1.2.6
 flake8==3.8.4
-isort[pyproject]==5.6.4
+isort[pyproject]==5.11.5
 mypy==0.812
 pre-commit==2.9.3
 pytest==6.1.2
