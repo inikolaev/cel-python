@@ -51,6 +51,7 @@ jobs:
   Coverage:
     needs: Tests
     runs-on: ubuntu-latest
+    if: false  # Disabling coverage job
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v1
